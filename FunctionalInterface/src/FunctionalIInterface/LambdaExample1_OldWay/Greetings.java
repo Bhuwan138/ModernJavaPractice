@@ -1,9 +1,6 @@
 package FunctionalIInterface.LambdaExample1_OldWay;
-<<<<<<< HEAD
-@FunctionalInterface
-=======
 
->>>>>>> origin/main
+@FunctionalInterface
 public interface Greetings {
     String greet(String name);
 }
