@@ -14,7 +14,7 @@ public class UsePlayer {
         for(Player p:playerList)
             System.out.println( p);
 
-        Collections.sort(playerList, (obj1, obj2) -> {
+        playerList.sort((obj1, obj2) -> {
             if (obj1.getRanking() != obj2.getRanking()) {
                 return obj1.getRanking() - obj2.getRanking();
             } else {
