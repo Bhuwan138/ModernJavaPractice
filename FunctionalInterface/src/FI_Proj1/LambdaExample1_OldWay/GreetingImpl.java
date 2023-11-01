@@ -1,4 +1,4 @@
-package FunctionalIInterface.LambdaExample1_OldWay;
+package FI_Proj1.LambdaExample1_OldWay;
 
 import java.time.LocalDateTime;
 
