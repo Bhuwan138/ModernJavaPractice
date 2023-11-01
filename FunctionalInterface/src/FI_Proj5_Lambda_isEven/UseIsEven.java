@@ -5,7 +5,7 @@ interface  NumText{
 }
 public class UseIsEven {
     public static void main(String[] args) {
-        NumText num = (numb) -> (numb & 1) == 0 ? true : false;
-        System.out.println(num.isEven(998));
+        NumText num = (numb) -> (numb & 1) == 0 ;
+        System.out.println(num.isEven(99));
     }
 }
