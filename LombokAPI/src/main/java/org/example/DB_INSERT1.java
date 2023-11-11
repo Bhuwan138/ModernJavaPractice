@@ -1,22 +1,15 @@
 //package org.example;
 //
 //
-//
-//import org.apache.log4j.ConsoleAppender;
-//import org.apache.log4j.Level;
-//import org.apache.log4j.Logger;
-//import org.apache.log4j.SimpleLayout;
-//
 //import java.sql.*;
+//import java.util.logging.Logger;
 //
 //
-//public class DB_INSERT {
-//    private static Logger logger = Logger.getLogger(DB_INSERT.class);
+//public class DB_INSERT1 {
+//    private static Logger logger = Logger.getLogger(DB_INSERT1.class);
 //    static {
-//        SimpleLayout simpleLayout = new SimpleLayout();
-//        ConsoleAppender consoleAppender = new ConsoleAppender(simpleLayout);
-//        logger.addAppender(consoleAppender);
-//        logger.setLevel(Level.ALL);
+//        PropertyConfigurator.configure("src/main/java/org/example/commons/log4j.properties");
+//
 //
 //    }
 //    public static void main(String[] args) {
